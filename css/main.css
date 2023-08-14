@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2efdf;
+  background-image: url("../images/ty.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+img {
+  width: 300px;
+  height: 350px;
+}
+form {
+  width: 100%;
+  background-color: rgb(177, 191, 211);
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px solid rgba(38, 37, 37, 0.3);
+}
+form select {
+  background-color: transparent;
+  width: 60%;
+  border-radius: 5px;
+  color: #faa307;
+  cursor: pointer;
+}
+label {
+  color: #171e26;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
+h2 {
+  color: #f7fbfe;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+p {
+  color: #f7fbfe;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+.word {
+  color: #fad991;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+}
+.container {
+  min-width: 500px;
+  padding: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border-radius: 1px solid #a7c5e3;
+  width: 60%;
+  margin: 10px;
+  background-color: transparent;
+  color: #faa307;
+}
+.score-container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.time,
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: #faa307;
+}
+.end-game-container {
+  min-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.play-again-btn {
+  background-color: rgb(197, 156, 103);
+  border-radius: 5px;
+  border: 1px solid #c6dbef;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+}
+.over {
+  font-size: 40px;
+  font-weight: bold;
+}
